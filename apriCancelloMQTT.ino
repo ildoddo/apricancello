@@ -9,16 +9,16 @@
 #define SERIAL_SPEED        115200
 
 //----WIFI CONFIG ----
-#define WIFI_SSID           "FRITZ!Box 7490" //your Wifi SSID
-#define WIFI_PASSWD         "00aa11bb22cc33dd44ee55" //your wifi password
+#define WIFI_SSID           "-------------" //your Wifi SSID
+#define WIFI_PASSWD         "-------------" //your wifi password
 #define MAX_WIFI_INIT_RETRY 10
 #define WIFI_RETRY_DELAY    500
 
 //----MQTT CONFIG ----
 #define MQTT_CLIENT_ID      "cancello_board"
-#define MQTT_SERVER         "m21.cloudmqtt.com" //MQTT broker sever. I use https://www.cloudmqtt.com/
-#define MQTT_UNAME          "rdhqobyl"     //MQTT brokor user name - I use this broker https://www.cloudmqtt.com/
-#define MQTT_PASSW          "lNjwQaq2AyuB" //MQTT broker passowrd
+#define MQTT_SERVER         "------------" //MQTT broker sever. I use https://www.cloudmqtt.com/
+#define MQTT_UNAME          "---------------"     //MQTT brokor user name - I use this broker https://www.cloudmqtt.com/
+#define MQTT_PASSW          "-----------" //MQTT broker passowrd
 #define MQTT_BROKER_PORT    16248 //17780          //MQTT BROKER listening port
 #define MQTT_TOPIC          "cancello"
 
